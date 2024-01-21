@@ -11,8 +11,8 @@ import { BrowserRouter as Router, Route,Routes } from 'react-router-dom'
 const App =()=> {
   const pageSize=6;
   // apiKey=process.env.REACT_APP_NOT_SECRET_CODE;
-  const apiKey='af09ce4ebd61471081f457db780e403c';
-  // const apiKey='af44d9efb4224c34b7ba50cbe7146485';
+  const apiKey='use_your_api';
+  // const apiKey='';
 
   const [progress, setProgress] = useState(10);
     return(
