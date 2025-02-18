@@ -31,7 +31,7 @@ const  News = (props)=>{
     // In place of componentDidMount we are using useEffect
     useEffect(() => {
         updateNews();
-    }, [])
+    }, [updateNews])
 
     // async componentDidMount(){
     //   props.setProgress(10);
